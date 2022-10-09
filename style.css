@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Roboto';
+}
+
+
+body{
+    
+    background-color: rgb(8, 84, 84);
+    color: white;
+   
+}
+header{
+    
+    display: flex;
+    justify-content:flex-end;
+    height: 10vh;
+    align-items: center;
+}
+
+header ul {
+   display: flex;
+list-style: none;
+font-size: 1.5rem;
+margin-top: 20px;
+}
+.under:hover{
+    text-decoration: underline;
+}
+header ul li{
+    
+    margin-right: 2.5rem;   
+    font-size: 1rem;
+
+
+}
+header img{
+    height: 20px;
+}
+main{
+    display: flex;
+height: 80vh;
+
+}
+main section.a{
+    width: 35%;
+    display: grid;
+    grid-template-rows: 80% auto;
+}
+main .a .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .a .top span{
+    writing-mode: vertical-lr;
+    margin-right: 2rem;
+}
+main .a .top h1{
+    font-size: 4rem;
+
+}
+main .a .bottom{
+    position: relative;
+    top: 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 50%;
+    background-color: white;
+    color: black;
+}
+.lim{
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    position: relative;
+    left:40%;
+    top: -36%;
+    writing-mode: vertical-lr;
+}
+main img{
+    height: 20rem;
+    filter: drop-shadow(12px 12px 7px rgba(200, 231, 231, 0.5));
+   
+}
+main .b{
+    display: flex;
+    margin-top: 10%;
+    
+}
+
+main .b .sub ul  {
+ display: flex;
+flex-direction: column;
+justify-content: space-around;
+height: 50%;
+}
+main .b .sub ul li{
+    list-style: none;
+    font-size: 1rem;
+
+}
+main .b .sub h2{
+    font-size: 3rem;
+}
